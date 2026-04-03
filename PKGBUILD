@@ -7,38 +7,40 @@ arch=('x86_64' 'aarch64')
 depends=(
     'qt6-base'
     'kdecoration'
-    'kf6-kcoreaddons'
-    'kf6-kconfig'
-    'kf6-kconfigwidgets'
-    'kf6-kcmutils'
-    'kf6-kwidgetsaddons'
+    'kcoreaddons'
+    'kconfig'
+    'kconfigwidgets'
+    'kcmutils'
+    'kwidgetsaddons'
 )
+
 makedepends=(
-    'git'
     'cmake'
     'extra-cmake-modules'
     'qt6-base'
     'kdecoration'
-    'kf6-kcoreaddons'
-    'kf6-kconfig'
-    'kf6-kconfigwidgets'
-    'kf6-kcmutils'
-    'kf6-kwidgetsaddons'
+    'kcoreaddons'
+    'kconfig'
+    'kconfigwidgets'
+    'kcmutils'
+    'kwidgetsaddons'
 )
 provides=('kinexin-deco')
 conflicts=('kinexin-deco')
-sha256sums=('SKIP')
+source=()
 
 build() {
-    cd "$pkgname/kinexin-deco-kwin"
+    cd "$startdir/kinexin-deco-kwin"
+    rm -rf build
     cmake -B build \
+        -S . \
         -DCMAKE_BUILD_TYPE=Release \
         -DCMAKE_INSTALL_PREFIX=/usr
     cmake --build build
 }
 
 package() {
-    cd "$pkgname/kinexin-deco-kwin"
+    cd "$startdir/kinexin-deco-kwin"
     DESTDIR="$pkgdir" cmake --install build
-    install -Dm644 "$srcdir/$pkgname/LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+    install -Dm644 "$startdir/LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }

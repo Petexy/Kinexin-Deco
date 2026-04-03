@@ -1,0 +1,12 @@
+# CMake build output
+kinexin-deco-kwin/build/
+
+# Qt/CMake autogen directories
+kinexin-deco-kwin/*_autogen/
+kinexin-deco-kwin/src/*_autogen/
+
+# makepkg artifacts
+src/
+pkg/
+*.pkg.tar.zst
+*.pkg.tar.xz
