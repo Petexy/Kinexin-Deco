@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/petexy/GitHub/hyprexin-plugins-plasma/kinexin-deco-kwin/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,3 @@
+/usr/lib/qt6/plugins/org.kde.kdecoration3/kinexin-deco-kwin.so
+/usr/lib/qt6/plugins/org.kde.kdecoration3/kinexin-deco-kwin.json
+/usr/lib/qt6/plugins/org.kde.kdecoration3.kcm/kcm_kinexindecoration.so

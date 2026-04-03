@@ -1,0 +1,15 @@
+/home/petexy/GitHub/hyprexin-plugins-plasma/kinexin-deco-kwin/build/CMakeFiles/uninstall.dir
+/home/petexy/GitHub/hyprexin-plugins-plasma/kinexin-deco-kwin/build/CMakeFiles/fetch-translations.dir
+/home/petexy/GitHub/hyprexin-plugins-plasma/kinexin-deco-kwin/build/CMakeFiles/kinexin-deco-kwin.dir
+/home/petexy/GitHub/hyprexin-plugins-plasma/kinexin-deco-kwin/build/CMakeFiles/kcm_kinexindecoration.dir
+/home/petexy/GitHub/hyprexin-plugins-plasma/kinexin-deco-kwin/build/CMakeFiles/test.dir
+/home/petexy/GitHub/hyprexin-plugins-plasma/kinexin-deco-kwin/build/CMakeFiles/edit_cache.dir
+/home/petexy/GitHub/hyprexin-plugins-plasma/kinexin-deco-kwin/build/CMakeFiles/rebuild_cache.dir
+/home/petexy/GitHub/hyprexin-plugins-plasma/kinexin-deco-kwin/build/CMakeFiles/list_install_components.dir
+/home/petexy/GitHub/hyprexin-plugins-plasma/kinexin-deco-kwin/build/CMakeFiles/install.dir
+/home/petexy/GitHub/hyprexin-plugins-plasma/kinexin-deco-kwin/build/CMakeFiles/install/local.dir
+/home/petexy/GitHub/hyprexin-plugins-plasma/kinexin-deco-kwin/build/CMakeFiles/install/strip.dir
+/home/petexy/GitHub/hyprexin-plugins-plasma/kinexin-deco-kwin/build/CMakeFiles/kinexin-deco-kwin_autogen_timestamp_deps.dir
+/home/petexy/GitHub/hyprexin-plugins-plasma/kinexin-deco-kwin/build/CMakeFiles/kinexin-deco-kwin_autogen.dir
+/home/petexy/GitHub/hyprexin-plugins-plasma/kinexin-deco-kwin/build/CMakeFiles/kcm_kinexindecoration_autogen_timestamp_deps.dir
+/home/petexy/GitHub/hyprexin-plugins-plasma/kinexin-deco-kwin/build/CMakeFiles/kcm_kinexindecoration_autogen.dir

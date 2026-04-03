@@ -1,0 +1,9 @@
+{
+    "KPlugin": {
+        "Id": "kcm_kinexindecoration",
+        "Name": "Kinexin Bar Settings",
+        "Description": "Configure appearance of Kinexin Bar decoration",
+        "Icon": "preferences-system-windows-actions",
+        "ServiceTypes": ["KCModule"]
+    }
+}

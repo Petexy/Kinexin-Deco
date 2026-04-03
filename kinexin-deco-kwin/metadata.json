@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Id": "kinexin-deco-kwin",
+        "Name": "Kinexin Bar",
+        "Description": "Left-side vertical decoration bar with window action buttons",
+        "Authors": [
+            {
+                "Name": "kinexin"
+            }
+        ],
+        "Category": "Window Decorations",
+        "Icon": "",
+        "License": "GPL-3.0",
+        "Version": "1.0",
+        "X-KDE-ConfigModule": "kcm_kinexindecoration"
+    },
+    "org.kde.kdecoration3": {
+        "blur": false,
+        "themes": true,
+        "themeListKeyword": "Kinexin"
+    },
+    "recommendedBorderSize": "None"
+}
